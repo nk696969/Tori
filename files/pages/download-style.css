@@ -1,0 +1,62 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#download-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#retry-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#retry-link {
+    text-decoration: underline;
+    color: inherit;
+    font-weight: normal;
+}
+
+#retry-link:hover {
+    text-decoration: underline;
+}
+
+#youtube-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#generateKeyButton {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.key-display {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hidden {
+    opacity: 0;
+}

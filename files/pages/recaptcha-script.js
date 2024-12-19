@@ -1,3 +1,3 @@
-function onCaptchaSuccess(token) {
+function onCaptchaSuccess() {
     window.location.href = 'download.html';
 }
